@@ -1,0 +1,63 @@
+{
+  "configVersion": 1,
+  "index": "/PWCat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWCat/favicon.ico",
+        "/PWCat/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWCat/assets/icons/icon-128x128.png",
+        "/PWCat/assets/icons/icon-144x144.png",
+        "/PWCat/assets/icons/icon-152x152.png",
+        "/PWCat/assets/icons/icon-192x192.png",
+        "/PWCat/assets/icons/icon-384x384.png",
+        "/PWCat/assets/icons/icon-512x512.png",
+        "/PWCat/assets/icons/icon-72x72.png",
+        "/PWCat/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PWCat/assets/icons/icon-128x128.png": "630b034fdc1e6e26d0c09610cfa92158fddf8356",
+    "/PWCat/assets/icons/icon-144x144.png": "290145c6cd33bc3ea41111150845fb2e9d1432cc",
+    "/PWCat/assets/icons/icon-152x152.png": "5862d0e6f67388b3dfdf9341d58a8701807b783d",
+    "/PWCat/assets/icons/icon-192x192.png": "c2dc6e1247262361d296e2f632401d47fd2f2b6f",
+    "/PWCat/assets/icons/icon-384x384.png": "4f124d5a4589a7cfd958e92b8822acfb0155aedb",
+    "/PWCat/assets/icons/icon-512x512.png": "8416f334d3602a925b8055e27bf92519ce0b57f1",
+    "/PWCat/assets/icons/icon-72x72.png": "d20b5364a0b9061e3948069178ea4ee7ee371c04",
+    "/PWCat/assets/icons/icon-96x96.png": "9046441124bdf5684efc7e2a300c94ac3a7d3214",
+    "/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/PWCat/index.html": "6d843cb30de6b6b831ed9f5274fa089e7a7b6f46"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
