@@ -10,7 +10,9 @@
         "/PWCat/favicon.ico",
         "/PWCat/index.html"
       ],
-      "patterns": []
+      "patterns": [
+        "https:\\/\\/cataas\\.com\\/.*"
+      ]
     },
     {
       "name": "assets",
@@ -40,7 +42,7 @@
     "/PWCat/assets/icons/icon-72x72.png": "d20b5364a0b9061e3948069178ea4ee7ee371c04",
     "/PWCat/assets/icons/icon-96x96.png": "9046441124bdf5684efc7e2a300c94ac3a7d3214",
     "/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/PWCat/index.html": "6d843cb30de6b6b831ed9f5274fa089e7a7b6f46"
+    "/PWCat/index.html": "a7ee55d972b86bda9b175b8acea95baa86a766fa"
   },
   "navigationUrls": [
     {
